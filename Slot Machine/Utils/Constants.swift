@@ -12,7 +12,7 @@ struct Constants {
         static let pink = Color("ColorPink")
         static let yellow = Color("ColorYellow")
         static let purple = Color("ColorPurple")
-        static let transparentBlack = Color("ColorBlackTransparent")
+        static let transparentBlack = Color("ColorTransparentBlack")
     }
 }
 

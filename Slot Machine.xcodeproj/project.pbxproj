@@ -20,7 +20,12 @@
 		FDD7A8A628270F5700411C90 /* riseup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDD7A89E28270F5700411C90 /* riseup.mp3 */; };
 		FDD7A8A728270F5700411C90 /* background-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDD7A89F28270F5700411C90 /* background-music.mp3 */; };
 		FDD7A8A828270F5700411C90 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDD7A8A028270F5700411C90 /* chimeup.mp3 */; };
-		FDD7A8AF2827102300411C90 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD7A8AE2827102300411C90 /* Launch Screen.storyboard */; };
+		FDD7A8AF2827102300411C90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD7A8AE2827102300411C90 /* LaunchScreen.storyboard */; };
+		FDD7A8B228276D6A00411C90 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD7A8B128276D6A00411C90 /* LogoView.swift */; };
+		FDD7A8B428276D9A00411C90 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD7A8B328276D9A00411C90 /* Modifiers.swift */; };
+		FDD7A8B6282771AC00411C90 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD7A8B5282771AC00411C90 /* Extensions.swift */; };
+		FDD7A8B82827744A00411C90 /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD7A8B72827744A00411C90 /* ReelView.swift */; };
+		FDD7A8BA2827847900411C90 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD7A8B92827847800411C90 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +43,13 @@
 		FDD7A89E28270F5700411C90 /* riseup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = riseup.mp3; sourceTree = "<group>"; };
 		FDD7A89F28270F5700411C90 /* background-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "background-music.mp3"; sourceTree = "<group>"; };
 		FDD7A8A028270F5700411C90 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
-		FDD7A8AE2827102300411C90 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FDD7A8AE2827102300411C90 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDD7A8B128276D6A00411C90 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		FDD7A8B328276D9A00411C90 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		FDD7A8B5282771AC00411C90 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FDD7A8B72827744A00411C90 /* ReelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelView.swift; sourceTree = "<group>"; };
+		FDD7A8B92827847800411C90 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		FDD7A8BB2827931000411C90 /* Slot-Machine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Slot-Machine-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,11 +82,12 @@
 		FDD7A886281F8D4400411C90 /* Slot Machine */ = {
 			isa = PBXGroup;
 			children = (
+				FDD7A8BB2827931000411C90 /* Slot-Machine-Info.plist */,
 				FDD7A8AA28270FA400411C90 /* Views */,
 				FDD7A8AB28270FBB00411C90 /* Utils */,
 				FDD7A8A928270F5F00411C90 /* Sounds */,
 				FDD7A887281F8D4400411C90 /* Slot_MachineApp.swift */,
-				FDD7A8AE2827102300411C90 /* Launch Screen.storyboard */,
+				FDD7A8AE2827102300411C90 /* LaunchScreen.storyboard */,
 				FDD7A88B281F8D4500411C90 /* Assets.xcassets */,
 				FDD7A88D281F8D4500411C90 /* Preview Content */,
 			);
@@ -109,6 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				FDD7A889281F8D4400411C90 /* ContentView.swift */,
+				FDD7A8B128276D6A00411C90 /* LogoView.swift */,
+				FDD7A8B72827744A00411C90 /* ReelView.swift */,
+				FDD7A8B92827847800411C90 /* InfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -117,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				FDD7A89728270DED00411C90 /* Constants.swift */,
+				FDD7A8B328276D9A00411C90 /* Modifiers.swift */,
+				FDD7A8B5282771AC00411C90 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -185,7 +202,7 @@
 				FDD7A88F281F8D4500411C90 /* Preview Assets.xcassets in Resources */,
 				FDD7A8A228270F5700411C90 /* high-score.mp3 in Resources */,
 				FDD7A8A528270F5700411C90 /* spin.mp3 in Resources */,
-				FDD7A8AF2827102300411C90 /* Launch Screen.storyboard in Resources */,
+				FDD7A8AF2827102300411C90 /* LaunchScreen.storyboard in Resources */,
 				FDD7A8A128270F5700411C90 /* game-over.mp3 in Resources */,
 				FDD7A88C281F8D4500411C90 /* Assets.xcassets in Resources */,
 				FDD7A8A828270F5700411C90 /* chimeup.mp3 in Resources */,
@@ -200,9 +217,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDD7A8BA2827847900411C90 /* InfoView.swift in Sources */,
 				FDD7A88A281F8D4400411C90 /* ContentView.swift in Sources */,
+				FDD7A8B6282771AC00411C90 /* Extensions.swift in Sources */,
+				FDD7A8B228276D6A00411C90 /* LogoView.swift in Sources */,
 				FDD7A888281F8D4400411C90 /* Slot_MachineApp.swift in Sources */,
+				FDD7A8B82827744A00411C90 /* ReelView.swift in Sources */,
 				FDD7A89828270DED00411C90 /* Constants.swift in Sources */,
+				FDD7A8B428276D9A00411C90 /* Modifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,15 +350,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Slot Machine/Preview Content\"";
 				DEVELOPMENT_TEAM = 4KD65TKKK8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Slot-Machine-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -357,15 +382,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Slot Machine/Preview Content\"";
 				DEVELOPMENT_TEAM = 4KD65TKKK8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "Slot-Machine-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
