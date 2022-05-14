@@ -26,6 +26,7 @@
 		FDD7A8B82827744A00411C90 /* ReelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD7A8B72827744A00411C90 /* ReelView.swift */; };
 		FDD7A8BA2827847900411C90 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD7A8B92827847800411C90 /* InfoView.swift */; };
 		FDD7A8C12827982A00411C90 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD7A8C02827982A00411C90 /* Launch Screen.storyboard */; };
+		FDD7A8C32830131E00411C90 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD7A8C22830131E00411C90 /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		FDD7A8B92827847800411C90 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		FDD7A8BB2827931000411C90 /* Slot-Machine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Slot-Machine-Info.plist"; sourceTree = SOURCE_ROOT; };
 		FDD7A8C02827982A00411C90 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FDD7A8C22830131E00411C90 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				FDD7A89728270DED00411C90 /* Constants.swift */,
 				FDD7A8B328276D9A00411C90 /* Modifiers.swift */,
 				FDD7A8B5282771AC00411C90 /* Extensions.swift */,
+				FDD7A8C22830131E00411C90 /* PlaySound.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDD7A8BA2827847900411C90 /* InfoView.swift in Sources */,
+				FDD7A8C32830131E00411C90 /* PlaySound.swift in Sources */,
 				FDD7A88A281F8D4400411C90 /* ContentView.swift in Sources */,
 				FDD7A8B6282771AC00411C90 /* Extensions.swift in Sources */,
 				FDD7A8B228276D6A00411C90 /* LogoView.swift in Sources */,
